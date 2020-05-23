@@ -55,7 +55,13 @@ DONE == Match the design file at `500px` as well as you can
 
 
 ## Stretch Goals: 
-* [ ] Create an animation mixin using parametric mixins
+DONE ==  Create an animation mixin using parametric mixins
+
+:::NOTE:::
+
+I have NO clue how I got this to work. Not even sure it counts as parametric!
+
+
 * [ ] Introduce a form with inputs allowing users to select a vacation package and a submit button at the bottom of the page. Introduce inputs for name, email, phone number, and an area for them to leave special instructions. 
 * [ ] Style the site to look good at all sizes, not just desktop and phone
 
