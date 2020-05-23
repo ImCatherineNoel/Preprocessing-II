@@ -175,6 +175,7 @@ img {
   align-items: center;
   padding: 1rem;
   padding-bottom: 0;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .top-nav .nav-flex {
   display: flex;
@@ -183,16 +184,15 @@ img {
   align-items: center;
   max-width: 800px;
   width: 100%;
-  border-bottom: 2px dashed #C0C0C0;
 }
-.top-nav .nav-flex nav {
+.top-nav nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   justify-self: flex-end;
 }
-.top-nav .nav-flex nav a {
+.top-nav nav a {
   text-decoration: none;
   color: #212529;
   font-size: 1.5rem;
