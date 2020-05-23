@@ -6,8 +6,13 @@
         .flex(row, space-between, center); 
         max-width: 800px;
         width: 100%;
+        @media @mobile{
+        .flex(column, space-between, center); 
+        flex-wrap: wrap;
         }
-        
+        }
+
+   
       nav{
             .flex(row, center, center);
             justify-self: flex-end;
@@ -17,9 +22,12 @@
                 color: @font-color;
                 font-size: 1.5rem;
                 font-weight: 500;
-                padding: 30px;
-
-
+                padding: 20px;
+    
+                    @media @mobile{
+                    padding-bottom: 5px;
+                    }
+                    
             }
         }
     border-bottom: 2px dashed @navigation-border;
