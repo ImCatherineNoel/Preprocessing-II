@@ -1,16 +1,27 @@
-nav{
-    .flex(row, center, center);
-    justify-self: flex-end;
+.top-nav{
+    .flex(row, space-around, center);
+    padding: 1rem;
+      
+    .nav-flex{
+      .flex(row, space-between, center); 
+      max-width: 800px;
+      width: 100%;
+    
+      nav{
+            .flex(row, center, center);
+            justify-self: flex-end;
 
-    a{
-        text-decoration: none;
-        color: @font-color;
-        font-size: 1.5rem;
-        font-weight: 500;
-        padding: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+            a{
+                text-decoration: none;
+                color: @font-color;
+                font-size: 1.5rem;
+                font-weight: 500;
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
 
 
-    }
-}
+            }
+   }
+      border-bottom: 2px dashed @navigation-border;
+}   
