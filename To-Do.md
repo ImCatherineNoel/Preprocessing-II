@@ -41,7 +41,7 @@ DONE == Navigate to your `index.less` file. Notice the file is blank.  In order 
 DONE == Review the [desktop design file](design-files/fun-bus-desktop.png).  Notice the navigation, header, and buttons at the bottom of the page are missing.
 DONE == Navigation: Use the `navigation.less` file for all your navigation styling
 DONE == Main Header: Use the `home-page.less` file for the header styling.
-* [ ] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
+DONE == Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
 
 
 ## Task 5: Mobile Updates Needed
