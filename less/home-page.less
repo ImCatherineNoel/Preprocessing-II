@@ -1,12 +1,22 @@
 .home {
-
+     @media @mobile{
+        padding:30px;
+        padding-top: 0;
+        }
   header{
+
     img{
       padding-top: 0;
     }
-    h2{
+          
+      h2{
       padding-top: 1rem;
+
     }
+    @media @mobile{
+      border-bottom: 2px dashed @navigation-border;
+    }
+  }
     border-bottom: 2px dashed @navigation-border;
   }
 
@@ -15,18 +25,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+      @media @mobile{
+      flex-direction: column; 
+      }
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+        @media @mobile{
+        width: 100%;         
+        }
+      
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
-
+      @media @mobile{
+        width: 100%;         
+        }
       img {
         border-radius: 10px;
       }
@@ -36,7 +54,9 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
-       
+      @media @mobile {
+        .flex(column-reverse,space-between,center);
+      }
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -49,7 +69,10 @@
   }
 
   .content-destination {
-    width: 75%;
+    width: 75%;      
+      @media @mobile {        
+        width: 100%;
+      }
     margin: 0 auto 30px;
 
     img {
@@ -57,21 +80,27 @@
     }
   }
   .content-pick {
+
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
-    display: flex;
-    justify-content: space-between;
+    .flex(row,space-between,space-between);
+    @media @mobile{
+      .flex(column, space-between, center); 
+      }
 
     .destination {
       width: 30%;
+      @media @mobile {
+        width: 90%;
+      }
       margin-bottom: 30px;
     
         .btn{
           button{
-          .btn-style(@button-bg, 100%, hidden ,15px, white, 10px, 2.5rem);  
+          .btn-style(@button-bg, 100%, hidden ,.7rem, white, 10px, 2.5rem);  
           }
         }
     }
   }
-}
+
 // home

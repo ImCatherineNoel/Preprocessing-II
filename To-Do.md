@@ -9,12 +9,12 @@ DONE == Add your team lead as collaborator on Github.
 DONE == Clone your OWN version of the repository (Not Lambda's by mistake!).
 DONE == Create a new branch: git checkout -b `<firstName-lastName>`.
 DONE == Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+DONE == Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
+DONE == Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+DONE ==  Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
 
 ## Task 2: Set up your preprocessor
@@ -46,8 +46,13 @@ DONE == Buttons: Create a parametric mixin that can create the missing buttons i
 
 ## Task 5: Mobile Updates Needed
 DONE == Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
-* [ ] Review the [mobile design file](design-files/fun-bus-mobile.png). You will see several design updates that need updating. 
-* [ ] Match the design file at `500px` as well as you can 
+DONE == Review the [mobile design file](design-files/fun-bus-mobile.png). You will see several design updates that need updating. 
+DONE == Match the design file at `500px` as well as you can 
+
+
+
+
+
 
 ## Stretch Goals: 
 * [ ] Create an animation mixin using parametric mixins
