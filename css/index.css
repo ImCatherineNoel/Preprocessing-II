@@ -174,9 +174,6 @@ nav {
   justify-content: center;
   align-items: center;
   justify-self: flex-end;
-  border: 1px;
-  border-style: solid;
-  border-color: green;
 }
 nav a {
   text-decoration: none;
@@ -204,9 +201,6 @@ nav a {
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
-  border: 5px;
-  border-style: solid;
-  border-color: blue;
   border-bottom: 2px dashed #C0C0C0;
 }
 .header .head-flex {
@@ -214,9 +208,6 @@ nav a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 5px;
-  border-style: solid;
-  border-color: red;
   max-width: 800px;
   width: 100%;
 }
