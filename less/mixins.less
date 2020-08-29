@@ -1,1 +1,41 @@
-// Mixins in here
+//basic flex
+.flex(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+//button style
+.btn-style (@button-bg-color,@button-width,@button-border-style,@button-radius,@button-font-color,@button-padding,@button-font-size) {
+    background-color: @button-bg-color;
+    width: @button-width;
+    border-style: @button-border-style;
+    border-radius: @button-radius;
+    color: @button-font-color;
+    padding: @button-padding;
+    font-size: @button-font-size;
+  }
+
+
+.keyframes(@name; @arguments) {
+	@-moz-keyframes @name { @arguments(); }
+	@-webkit-keyframes @name { @arguments(); }
+	@keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+	animation: @arguments;
+}
+
+/* example */
+.super-button {
+	
+	.keyframes(fade-in;{
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+		});
+
+	.animation(fade-in 0.2s linear infinite alternate)
+
+}
